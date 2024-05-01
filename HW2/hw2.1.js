@@ -65,57 +65,66 @@ let book6 ={
 
 //Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-let users;
-
 let users=[
-    user1=[
-        {name:'Vasyl'},
-        {username:'vasyl27'},
-        {password:'vas123'}
-    ],
-    user2=[
-        {name:'Andriy'},
-        {username:'andriy1994'},
-        {password:125487245}
-    ],
-    user3=[
-        {name:'Vitaliy'},
-        {username:'vital25'},
-        {password:'qwerty123'}
-    ],
-    user4=[
-        {name:'Olena'},
-        {username:'olenka27'},
-        {password:'asd1123'}
-    ],
-    user5=[
-        {name:'Oleh'},
-        {username:'oleh1207'},
-        {password:1111222}
-    ],
-    user6=[
-        {name:'Kateryna'},
-        {username:'kate25'},
-        {password:274431}
-    ],
-    user7=[
-        {name:'Alina'},
-        {username:'ali1994'},
-        {password:'tym123123'}
-    ],
-    user8=[
-        {name:'Anton'},
-        {username:'anton789'},
-        {password:225588}
-    ],
-    user9=[
-        {name:'Ihor'},
-        {username:'ihor12061993'},
-        {password:'ihor12061993'}
-    ],
-    user10=[
-        {name:'Ivan'},
-        {username:'ivanko23'},
-        {password:'24j121w1'}
-    ]
+    user1={
+        name:'Vasyl',
+        username:'vasyl27',
+        password:'vas123'
+    },
+    user2={
+        name:'Andriy',
+        username:'andriy1994',
+        password:125487245
+    },
+    user3={
+        name: 'Vitaliy',
+        username: 'vital25',
+        password: 'qwerty123'
+    },
+    user4= {
+        name: 'Olena',
+        username: 'olenka27',
+        password: 'asd1123'
+    },
+    user5={
+        name:'Oleh',
+        username:'oleh1207',
+        password:1111222
+    },
+    user6={
+        name:'Kateryna',
+        username:'kate25',
+        password:274431
+    },
+    user7= {
+        name: 'Alina',
+        username: 'ali1994',
+        password: 'tym123123'
+    },
+    user8={
+        name:'Anton',
+        username:'anton789',
+        password:225588
+    },
+    user9= {
+        name: 'Ihor',
+        username: 'ihor12061993',
+        password: 'ihor12061993'
+    },
+    user10= {
+        name: 'Ivan',
+        username: 'ivanko23',
+        password: '24j121w1'
+    }
 ]
+console.log(user1.password)
+console.log(user2.password)
+console.log(user3.password)
+console.log(user4.password)
+console.log(user5.password)
+console.log(user6.password)
+console.log(user7.password)
+console.log(user8.password)
+console.log(user9.password)
+console.log(user10.password)
+
