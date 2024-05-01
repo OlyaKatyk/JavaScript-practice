@@ -128,3 +128,4 @@ console.log(user8.password)
 console.log(user9.password)
 console.log(user10.password)
 
+//- описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів.
