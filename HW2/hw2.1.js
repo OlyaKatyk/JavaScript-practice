@@ -129,3 +129,38 @@ console.log(user9.password)
 console.log(user10.password)
 
 //- описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів.
+
+let temperature;
+let morning;
+let day;
+let night;
+
+temperature=[
+    morning[
+        day1=12,
+        day2=15,
+        day3=13,
+        day4=18,
+        day5=14,
+        day6=15,
+        day7=14
+    ],
+    day[
+        day1=19,
+        day2=21,
+        day3=18,
+        day4=25,
+        day5=22,
+        day6=23,
+        day7=22
+    ],
+    night[
+        day1=8,
+        day2=9,
+        day3=10,
+        day4=12,
+        day5=9,
+        day6=11,
+        day7=7
+     ]
+    ]
