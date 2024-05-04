@@ -133,37 +133,6 @@ console.log(user10.password)
 //let temperature;
 
 
-//temperature=[
-    //morning[
-       // day1=12,
-      //  day2=15,
-      //  day3=13,
-       // day4=18,
-      //  day5=14,
-        //day6=15,
-       /// day7=14
-    //],
-  //  day[
-   //     day1=19,
-    //    day2=21,
-    //    day3=18,
-    //    day4=25,
-     //   day5=22,
-      //  day6=23,
-       // day7=22
-  //  ],
-  //  night[
-  //      day7=7,
-   //     day1=8,
-    //    day2=9,
-     //   day3=10,
-     //   day4=12,
-    //    day5=9,
-     //   day6=11
-  //   ]
-  //  ]
-
-
 //Логічні розгалуження:
 // - Є змінна х, якій ви надаєте довільне числове значення.
 // Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
@@ -171,28 +140,77 @@ console.log(user10.password)
 let x=3;
 
 if (x>0 || x<0){
-    console.log('ВІРНО')
+    console.log('ВІРНО');
 } else {
     console.log('НЕВІРНО')
 }
 //- Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 
-let time=5;
+let time=58;
 
-if (time<15){
-    console.log('Перша четверть')
+if (time<=15){
+    console.log('Перша четверть');
 }
-if (time>15 && time<30){
-    console.log('Друга четверть')
+else if (time>15 && time<=30){
+    console.log('Друга четверть');
 }
-if (time>30 && time<45){
-    console.log('Третя четверть')
+else if (time>30 && time<=45){
+    console.log('Третя четверть');
 }
-if (time>45 && time<59){
-    console.log('Четверта четверть')
+else if (time>45 && time<=59){
+    console.log('Четверта четверть');
 }
 else{
     console.log('НЕВІРНО')
 }
+
+//- У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
+
+let day=23;
+
+if (day<=10){
+    console.log('Перша декада');
+}
+else if (day>10 && day<=19){
+    console.log('Друга декада');
+}
+ else if (day>=20 &&day<=31){
+     console.log('Третя декада');
+}
+else {
+    console.log('НЕВІРНО')
+}
+
+
+//- Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
+
+let weekday= prompt('Enter day','Monday');
+
+switch (weekday){
+    case '1':
+        console.log('Monday');
+        break;
+    case '2':
+        console.log('Tuesday');
+        break;
+    case '3':
+        console.log('Wednesday');
+        break;
+    case '4':
+        console.log('Thursday');
+        break;
+    case '5':
+        console.log('Friday');
+        break;
+    case '6':
+        console.log('Saturday');
+        break;
+    case '7':
+        console.log('Sunday');
+        break;
+    default:
+        console.log('Wrong day!')
+}
+
 
