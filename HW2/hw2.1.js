@@ -130,8 +130,44 @@ console.log(user10.password)
 
 //- описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів.
 
-//let temperature;
+const temp=[
 
+    day1={
+    morning:15,
+    day:25,
+    night:10
+    },
+    day2={
+        morning:11,
+        day:22,
+        night:8
+    },
+    day3={
+        morning:8,
+        day:18,
+        night:6
+    },
+    day4={
+        morning:12,
+        day:22,
+        night:9
+    },
+    day5={
+        morning:14,
+        day:26,
+        night:12
+    },
+    day6={
+        morning:13,
+        day:25,
+        night:11
+    },
+    day7={
+        morning:8,
+        day:19,
+        night:6
+    }
+]
 
 //Логічні розгалуження:
 // - Є змінна х, якій ви надаєте довільне числове значення.
@@ -214,3 +250,45 @@ switch (weekday){
 }
 
 
+//- Користувач вводить або має два числа.
+// Потрібно знайти та вивести максимальне число з тих двох .
+// Також потрібно врахувати коли введені рівні числа.
+
+let z=25;
+let y=27
+
+if (z>y){
+    console.log(x)
+}
+else if (y>z){
+    console.log(y)
+}
+else{
+    console.log('Equal')
+}
+
+
+//- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
+//  буде присвоювати змінній х значення "default"  якщо ви намагаєтесь присвоїти в неї falsy-значення (хибноподібні, тобто ті, які приводиться до false, а це 0 null undefined і тд).
+
+let x1=127  ? 'Ok' : 'default'
+console.log(x1)
+
+
+//- з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
+
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+if (coursesAndDurationArray[0].monthDuration>5){console.log('Супер')}
+if (coursesAndDurationArray[1].monthDuration>5){console.log('Супер')}
+if (coursesAndDurationArray[2].monthDuration>5){console.log('Супер')}
+if (coursesAndDurationArray[3].monthDuration>5){console.log('Супер')}
+if (coursesAndDurationArray[4].monthDuration>5){console.log('Супер')}
+if (coursesAndDurationArray[5].monthDuration>5){console.log('Супер')}
