@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee6f2cc-bb56-45f8-b566-74bb3ad4428b" name="Changes" comment="hw2" />
+    <list default="true" id="9ee6f2cc-bb56-45f8-b566-74bb3ad4428b" name="Changes" comment="hw3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/HW3.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/HW3.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,7 @@
       <workItem from="1714584488104" duration="8250000" />
       <workItem from="1714674230880" duration="2647000" />
       <workItem from="1714849851971" duration="5002000" />
+      <workItem from="1715105798087" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="done hw1">
       <option name="closed" value="true" />
@@ -128,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714856125771</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw2">
+      <option name="closed" value="true" />
+      <created>1715105810797</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715105810797</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hw3">
+      <option name="closed" value="true" />
+      <created>1715105946556</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715105946556</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done hw1" />
     <MESSAGE value="hw2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw2" />
+    <MESSAGE value="hw3" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw3" />
   </component>
 </project>
